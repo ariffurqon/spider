@@ -15,6 +15,14 @@
       <iframe-tab tabs="tabs">
       </iframe-tab>
     </uib-tabset>
+
+    <div class="controls">
+       <i class="fa fa-plus" tooltip-placement="bottom"
+       uib-tooltip="New tab" ng-click="newTab()"></i>
+       <i class="fa fa-minus" ng-click="minimize()"></i>
+       <i class="fa fa-square-o" ng-click="toggleKioskMode()"></i>
+       <i class="fa fa-times" ng-click="close()"></i>
+    <div>
     
     <script src="libs/jquery/dist/jquery.min.js"></script>
     <script src="libs/angular/angular.js"></script>
