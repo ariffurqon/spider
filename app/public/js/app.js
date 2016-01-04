@@ -17,7 +17,7 @@ angular.module('spider', ['ui.bootstrap', 'ngSanitize'])
           $scope.tabs.push(tab);
         },
         function () {
-          alert("Error opening site!");
+          alert("Oops...error opening site!");
         });
       };
 
@@ -71,7 +71,7 @@ angular.module('spider', ['ui.bootstrap', 'ngSanitize'])
     .factory('GUI', function () {
       return require('nw.gui');
     })
-    
+
     .factory('Window', function (GUI) {
       return GUI.Window.get();
     });
