@@ -7,8 +7,7 @@
   "license": "MIT",
   "node-remote": "localhost",
   "scripts": {
-    "start": "nw",
-    "postinstall": "bash ./post_install.sh"
+    "start": "nw"
   },
   "dependencies": {
     "body-parser": "^1.14.0",
